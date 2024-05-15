@@ -1,0 +1,221 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Intro
+{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Text
+{
+    padding: 50px;
+    animation: fade-in 5s;
+}
+
+span
+{
+    font-family: serif;
+    color: darkred;
+}
+
+.Hello
+{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 100px;
+    color: darkred;
+}
+
+.Picture
+{
+    border: 2px;
+    border-style: solid;
+    border-radius:20%;
+    border-color: brown;
+    margin: 20px;
+    animation: movement 2s ease-in-out infinite ;
+    animation-delay: 1s;
+}
+
+nav
+{
+    background-color:black;
+    color: white;
+    padding: 25px;
+    animation: fade-in 5s;
+    
+}
+
+.First-Text
+{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.First-List,.First-Unorder,h1
+{
+display: inline;
+}
+
+.First-Unorder
+{
+    margin-left: 60%;
+}
+
+.First-List
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.First-List:hover
+{
+    color: coral;
+    cursor: pointer;
+}
+
+.Box
+{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    animation: fade-in 5s;
+}
+
+.one
+{
+    border: 2px;
+    border-style: solid;
+    border-color: brown;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.one:hover
+{
+    background-color:aliceblue;
+    transition-duration: 5s;
+}
+
+.Text-One
+{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: darkred;
+    display: flex;
+    justify-content: center;
+}
+
+.Second-List
+{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Second-List:hover
+{
+ color: darkred;
+}
+
+.two
+{
+    border: 2px;
+    border-style: solid;
+    border-color:brown;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.two:hover
+{
+    background-color:aliceblue;
+    transition-duration: 5s;
+}
+
+.Text-Two
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: darkred;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Para-Two
+{
+    padding: 2px;
+}
+
+.three
+{
+    border: 2px;
+    border-style: solid;
+    border-color: brown;
+    width:100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.three:hover
+{
+    background-color:aliceblue;
+    transition-duration: 5s;
+}
+
+.Text-Three
+{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: darkred;
+    display: flex;
+    justify-content: center;   
+}
+
+.Third-List
+{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Third-List:hover
+{
+ color: darkred;
+}
+
+@keyframes movement
+{
+    0%
+    {
+        transform: translateX(0);
+    }
+    50%
+    {
+        transform: translateX(-20px);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fade-in
+{
+0%{ opacity: 0;}
+100%{ opacity: 1;}
+}
